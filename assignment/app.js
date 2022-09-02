@@ -9,7 +9,7 @@ const signerProvider = new ethers.providers.Web3Provider(window.ethereum)
 const provider = new etherjs.providers.JsonRpcProvider(rpcUrl)
 
 const signer = signerProvider.getSigner()
-const tokenAddress = "0xf4fF1A7C870c7e0662c0923aD61D3bB854DC0D83"
+const tokenAddress = "0xCeffEeCF546791448e9a7b0d1BDA19eDd29658B0"
 
 const useContract = async(address, abi, isSigner=false)=>{
     const signerProvider = new ethers.providers.Web3Provider(window.ethereum)
