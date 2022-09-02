@@ -1,0 +1,18 @@
+//create coin
+// deploy the coin
+//verify the contract address you deployed the contract to.
+//with the aid of goerliethscan.io, get the necessary thing like abi, methods in the contract...
+// with these (abi etc), do the necessary interaction with the smart contract.
+
+
+to deploy contact to testNet use the command below
+npx hardhat run scripts/deploy.ts --network rinkeby
+
+get the API key from rinkebyethscan.io
+
+then set it up in the .env file and hardhat.config file
+
+
+
+to verify the contract deployed above use the command below
+npx hardhat verify 0xf4fF1A7C870c7e0662c0923aD61D3bB854DC0D83 --network rinkeby
